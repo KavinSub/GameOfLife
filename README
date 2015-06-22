@@ -1,0 +1,6 @@
+My implementation of Conway's game of Life in Java! The world is set to be a fixed 600x600 grid, and as a result changing the height factor changes the zoom on the top-left corner of the world. The delay field specifies how much time to pause between each generation in milliseconds. By default it is set at 50 milliseconds.
+
+To run the program, type the following in the command line:
+java -jar GameOfLife.jar [text file]
+
+By default the test.txt file is used. To specify a seed pattern, create a new text file and populate it with 1's (alive cells) and 0's (dead cells). Unfortunately the way I have the file reader currently set up, is the the seed pattern must be rectangular (I may change this at some point).
